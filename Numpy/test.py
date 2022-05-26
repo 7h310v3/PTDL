@@ -1,10 +1,23 @@
+# 6
 import numpy as np
 
-A = np.arange(-3, 3, 0.5)
-print(A)
 
-A = np.linspace(-3.0, 3.0, num = 5)
-print(A)
+# Ham tinh tong le
+def tongle(x):
+    s = 0
+    for i in x:
+        if (i % 2 != 0):
+            s += i;
+    return s;
 
-A = np.logspace(-3.0, 3.0, num = 4)
-print(A)
+
+def main():
+    A = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+    print("Ma tran A: \n", A);
+
+    print("\nTong le theo hang: \n", np.apply_along_axis(tongle, 1, A));
+    print("\nTong le theo cot: \n", np.apply_along_axis(tongle, 0, A));
+
+
+if __name__ == '__main__':
+    main();

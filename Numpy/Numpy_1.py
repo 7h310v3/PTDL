@@ -1,22 +1,17 @@
-#6
 import numpy as np
 
-#Ham tinh tong
-def tong(x, y):
-    if (y == 1):
-        return x[0];
-    else:
-        return x[y - 1] + tong(x, y - 1);
+# Using arange() function
+A = np.arange(1, 8, 1)
+print("Arange function: ",A)
 
-def main():
-    A = np.random.rand(15, 17);
-    print("Ma tran A: \n", A);
+# Using linespace() function
+B = np.linspace(1, 7, 7, dtype = int)
+print("Linespace function: ", B)
 
-    #A = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
-    #print("Ma tran A: \n", A);
+# Using logspace() function
+C = np.logspace(1, 2, 7, dtype = int)
+print("Logspace function: ", C)
 
-    print("\nTong theo hang: \n", np.apply_along_axis(tong, 1, A, len(A)));
-    print("\nTong theo cot: \n", np.apply_along_axis(tong, 0, A, len(A)));
-
-if __name__ == '__main__':
-    main();
+# Using random.rand() function
+D = np.random.rand(1, 7)
+print("Rand function: ", D)
