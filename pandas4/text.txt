@@ -1,19 +1,6 @@
-Fatalities
-Injuries
-Aircraft Damage
-Radome Damage
-Windshield Damage
-Nose Damage
-Engine1 Damage
-Engine2 Damage
-Engine3 Damage
-Engine4 Damage
-Propeller Damage
-Wing or Rotor Damage
-Fuselage Damage
-Landing Gear Damage
-Tail Damagegr
-Lights Damage
-Other Damage
-
-["Fatalities", "Injuries", "Aircraft Damage", "Radome Damage", "Windshield Damage", "Nose Damage", "Engine1 Damage", "Engine2 Damage", "Engine3 Damage", "Engine4 Damage", "Propeller Damage", "Wing or Rotor Damage", "Fuselage Damage", "Landing Gear Damage", "Tail Damage", "Lights Damage", "Other Damage"]
+Mthly_HH_Income	
+Mthly_HH_Expense	
+No_of_Fly_Members	
+Emi_or_Rent_Amt	
+Annual_HH_Income		
+No_of_Earning_Members
